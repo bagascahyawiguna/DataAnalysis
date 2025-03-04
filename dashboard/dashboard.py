@@ -42,8 +42,8 @@ def create_yearly_rentals_df(df):
     return yearly_rentals
 
 # Load cleaned data
-hour_df = pd.read_csv("hour_cleaned.csv")
-day_df = pd.read_csv("day_cleaned.csv")
+hour_df = pd.read_csv("dashboard/hour_cleaned.csv")
+day_df = pd.read_csv("dashboard/day_cleaned.csv")
 
 # Konversi kolom 'dteday' ke datetime
 day_df['dteday'] = pd.to_datetime(day_df['dteday'])
