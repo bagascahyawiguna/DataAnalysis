@@ -21,19 +21,6 @@ This project analyzes 17,379 hourly and 731 daily bike-rental records (2011-2012
 - Matplotlib & Seaborn (visualization)
 - Streamlit (interactive dashboard)
 
-## Project Structure
-DataAnalysis/
-├── dashboard/
-│   ├── dashboard.py       # Streamlit dashboard app
-│   ├── day_cleaned.csv    # Cleaned daily rental data
-│   └── hour_cleaned.csv   # Cleaned hourly rental data
-├── data/
-│   ├── day.csv             # Raw daily rental data
-│   └── hour.csv             # Raw hourly rental data
-├── notebook.ipynb          # Full data analysis notebook
-├── requirements.txt
-└── README.md
-
 ## Setup Environment
 
 Clone this repository:
